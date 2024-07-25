@@ -1,12 +1,6 @@
 import { describe, expect, test, beforeEach } from "vitest";
-import { createCalendarService, CreateEntryInput, greeting } from ".";
+import { createCalendarService, CreateEntryInput } from "./calendar";
 import dayjs from "dayjs";
-
-describe("greeting", () => {
-  test("returns 'Hello, World!'", () => {
-    expect(greeting()).toBe("Hello, World!");
-  });
-});
 
 describe("When creating an entry", () => {
   let calendarService: ReturnType<typeof createCalendarService>;

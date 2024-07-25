@@ -1,28 +1,13 @@
-import { drizzle } from "drizzle-orm/libsql";
-import { createClient } from "@libsql/client";
+import app from "./http";
 
-export const greeting = () => {
-  return "Hello, World!";
+const start = async () => {
+  try {
+    console.log("🚀 Starting server on port 3000");
+    await app.listen({ port: 3000 });
+  } catch (err) {
+    app.log.error(err);
+    process.exit(1);
+  }
 };
 
-const createEntryRepository = () => {
-  const db = drizzle(
-    createClient({
-      url: "DATABASE_URL",
-      authToken: "DATABASE_AUTH_TOKEN",
-    })
-  );
-
-  return {};
-};
-
-export type CreateEntryInput = {} | any;
-
-export const createCalendarService = () => {
-  return {
-    createEntry: (_input: CreateEntryInput) => {
-      console.log(_input);
-      throw new Error("Not implemented");
-    },
-  };
-};
+start();
