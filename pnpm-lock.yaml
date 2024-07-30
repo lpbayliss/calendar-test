@@ -10,7 +10,7 @@ dependencies:
     version: 0.7.0
   '@ts-rest/core':
     specifier: ^3.48.1
-    version: 3.48.1(zod@3.23.8)
+    version: 3.49.0(zod@3.23.8)
   '@ts-rest/fastify':
     specifier: ^3.48.1
     version: 3.48.1(fastify@4.28.1)(zod@3.23.8)
@@ -1073,8 +1073,8 @@ packages:
     dev: true
     optional: true
 
-  /@ts-rest/core@3.48.1(zod@3.23.8):
-    resolution: {integrity: sha512-pfIaLRW/cHAdUHqj1DcS/IXJcLfwc9APYTH4GFEx2A6Faf2DZbUt6fwk4R9wbUnEFiCKLOBK5dSmHY2Q+mSeDg==}
+  /@ts-rest/core@3.49.0(zod@3.23.8):
+    resolution: {integrity: sha512-KYuCFVjwdnDw7nkVhKhFrO141Bbl5BBuLdb6qWuXkXagFfIDlPfIoEdjhD15hvaNEBEHJRF9Jb69ov9F80vvMA==}
     peerDependencies:
       zod: ^3.22.3
     peerDependenciesMeta:
