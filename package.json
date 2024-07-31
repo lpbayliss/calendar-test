@@ -30,7 +30,7 @@
     "eslint": "^9.7.0",
     "tsx": "^4.16.2",
     "typescript": "^5.5.4",
-    "typescript-eslint": "^7.17.0",
+    "typescript-eslint": "^8.0.0",
     "vite": "^5.3.4",
     "vitest": "^2.0.4"
   },
