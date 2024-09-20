@@ -35,7 +35,7 @@
     "vitest": "^2.0.4"
   },
   "dependencies": {
-    "@libsql/client": "^0.7.0",
+    "@libsql/client": "^0.14.0",
     "@ts-rest/core": "^3.48.1",
     "@ts-rest/fastify": "^3.48.1",
     "dayjs": "^1.11.12",
